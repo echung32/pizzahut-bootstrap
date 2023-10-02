@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand bg-light shadow">
@@ -61,20 +64,22 @@
         </div>
     </div>
 </nav>
-<div class="container d-flex flex-column gap-5 mt-5">
+<div class="container d-flex flex-column gap-5 my-5">
     <a href="#">
         <img class="w-100 rounded shadow" src="/img/big-dinner-box.avif" alt="PizzaHut">
     </a>
-    <div class="d-flex flex-row justify-content-around rounded shadow p-2 align-items-center" id="border-red">
-        <span class="h2 pe-3" id="right-border-line">
+    <div class="d-flex flex-row justify-content-around rounded shadow p-3 align-items-center" id="border-red">
+        <div id="right-border-line">
+            <span class="h2 pe-5 young-serif">
             <i class="bi bi-map"></i> Start here
         </span>
+        </div>
         <span class="h5 pt-1">Find your store to see local deals</span>
         <button type="button" class="btn rounded bg-danger fw-bold px-5" id="white-color">FIND DEALS</button>
     </div>
     <div class="d-flex flex-column gap-3">
         <div class="d-flex flex-row gap-3 align-items-end">
-            <h1>Featured</h1>
+            <h1 class="young-serif">Featured</h1>
             <a class="dropdown-item fw-bold pb-2" href="#">
                 <small class="red-color">SEE MORE</small>
                 <i class="bi bi-arrow-right"></i>
@@ -134,8 +139,80 @@
                 </div>
             </div>
         </div>
-        <hr>
     </div>
+    <hr>
+    <div class="d-flex flex-row justify-content-around">
+        <div class="d-flex flex-column gap-3">
+            <h1 class="young-serif">Get our mobile app</h1>
+            <a class="dropdown-item fw-bold" href="#">
+                <i class="bi bi-apple"></i>
+                <span class="red-color">APPLE STORE</span>
+                <i class="bi bi-arrow-right"></i>
+            </a>
+            <a class="dropdown-item fw-bold" href="#">
+                <i class="bi bi-phone"></i>
+                <span class="red-color">GOOGLE PLAY STORE</span>
+                <i class="bi bi-arrow-right"></i>
+            </a>
+            <div class="mt-3 d-flex flex-row gap-4">
+                <h3><i class="bi bi-facebook"></i></h3>
+                <h3><i class="bi bi-instagram"></i></h3>
+                <h3><i class="bi bi-tiktok"></i></h3>
+                <h3><i class="bi bi-twitter"></i></h3>
+            </div>
+        </div>
+        <div class="d-flex flex-column gap-3">
+            <div class="d-flex flex-column">
+                <h6>MENU</h6>
+                <small>Pizza</small>
+                <small>Wings</small>
+                <small>Sides</small>
+                <small>Pasta</small>
+                <small>Desserts</small>
+                <small>Drinks</small>
+                <small>Dips</small>
+                <small>Deals</small>
+                <small>Full Menu</small>
+            </div>
+            <div class="d-flex flex-column">
+                <h6>MY ACCOUNT</h6>
+                <small>Create an account</small>
+                <small>Sign in</small>
+            </div>
+        </div>
+        <div class="d-flex flex-column gap-3">
+            <div class="d-flex flex-column">
+                <h6>ABOUT US</h6>
+                <small>Create an account</small>
+                <small>Sign in</small>
+            </div>
+            <div class="d-flex flex-column">
+                <h6>ABOUT OUR FOOD</h6>
+                <small>Pizza</small>
+                <small>Wings</small>
+                <small>Sides</small>
+                <small>Pasta</small>
+                <small>Desserts</small>
+                <small>Drinks</small>
+                <small>Dips</small>
+                <small>Deals</small>
+                <small>Full Menu</small>
+            </div>
+        </div>
+        <div class="d-flex flex-column">
+            <h6>CUSTOMER SERVICE</h6>
+            <small>Pizza</small>
+            <small>Wings</small>
+            <small>Sides</small>
+            <small>Pasta</small>
+            <small>Desserts</small>
+            <small>Drinks</small>
+            <small>Dips</small>
+            <small>Deals</small>
+            <small>Full Menu</small>
+        </div>
+    </div>
+    <hr>
 </div>
 </body>
 </html>
